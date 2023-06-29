@@ -6,25 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="./assets/logoTurminha.png">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/landing.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
     <title>Turminha Pimpompem</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html"><img class="logo-header" src="assets/logoTurminha.png" alt="Logo da Turminha Pimpompem: as palavras estão na vertical, turminha está na cor preta, pim na cor azul, pom na cor vermelha e pem na cor verde">
+            <a href="index.html"><img id="logo-header" src="assets/logoTurminha.png" alt="Logo da Turminha Pimpompem: as palavras estão na vertical, turminha está na cor preta, pim na cor azul, pom na cor vermelha e pem na cor verde">
             </a>
 
-            <ul>
-                <li><a href="#Início">Início</a></li>
+
+                            <!-- MENU BURGUER -->
+                            <!-- <div class="mobile-menu" aria-label="Abrir ou Fechar Menu" aria-haspopup="true">
+                                <div class="line1"></div>
+                                <div class="line2"></div>
+                                <div class="line3"></div>
+                            </div> -->
+
+
+            <ul class="nav-list" role="Menu de navegação">
+                <li class="active-menu"><a href="#Início">Início</a></li>
                 <li><a href="#Vídeos">Vídeos</a></li>
                 <li><a href="#Personagens">Personagens</a></li>
                 <li><a href="#Fale Conosco">Fale Conosco</a></li>
             </ul>
-
         </nav>
     </header>
     
+    <!-- ------------- CONTEÚDO DA PÁGINA -------------- -->
+
+    <footer>
+        <ul class="social-medias">
+            <li><a href="https://www.facebook.com/TurminhaPimPomPem" target="blank"><img class="icon" src="./assets/logoFacebook.svg"
+                        alt="Logo do facebook com link para o perfil da Turminha"></a></li>
+
+            <li><a href="https://www.youtube.com/c/TurminhaPimPomPem" target="blank"><img class="icon" src="./assets/logoYoutube.svg"
+                        alt="Logo do youtube com link para o perfil da Turminha"></a></li>
+
+            <li><a href="https://www.instagram.com/turminhapimpompem/" target="blank"><img class="icon" src="./assets/logoInstagram.svg"
+                        alt="Logo do instagram com link para o perfil da Turminha"></a></li>
+        </ul>
+        <ul class="terms">
+            <li><a href="#">Termos e condições</a></li>
+            <li><a href="#">Política de privacide</a></li>
+        </ul>
+        <p class="footer-brand"> © Turminha Pimpompem | Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
