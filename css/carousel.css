@@ -1,0 +1,33 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rating-card {
+    color: #ffffff;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: #198754;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.rate-user-image{
+    width: 70px;
+    border-radius: 50%;
+}
+.rate-username{
+    font-size: 13px;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.rate-text{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 300;
+}

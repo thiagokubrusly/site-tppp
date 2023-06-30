@@ -8,7 +8,7 @@
 width: 100%;
 }
 
-.container{
+.container-welcome{
     padding:25px 15px;
     background-color: whitesmoke;
     text-align: justify;
@@ -33,4 +33,7 @@ width: 100%;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 25px;
+}
+.footer-brand{
+    margin-bottom: 0;
 }
